@@ -152,6 +152,8 @@ public class StandardDialectResolver extends AbstractDialectResolver {
 
 		if ( "Oracle".equals( databaseName ) ) {
 			switch ( databaseMajorVersion ) {
+				case 12:
+					return new Oracle10gDialect();
 				case 11:
 					return new Oracle10gDialect();
 				case 10:
