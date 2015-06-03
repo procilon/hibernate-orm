@@ -111,7 +111,7 @@ subprojects { subProject ->
     defaultTasks 'build'
 
     group = 'org.hibernate'
-    version = '4.0.1.procilon-0'
+    version = '4.0.1.procilon-1'
 
     // minimize changes, at least for now (gradle uses 'build' by default)..
     buildDir = "target"
